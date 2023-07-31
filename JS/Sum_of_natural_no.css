@@ -1,0 +1,29 @@
+body
+{
+    background-color: black;
+}
+div.entnum
+{
+    padding: 50px 0;
+    text-align: center;
+    width: auto;
+    height: auto
+    
+}
+#num
+{
+    width: 130px;
+}
+.btn
+{
+    margin: 10px 0;
+    display: inline-block;
+}
+label
+{
+    color: greenyellow;
+}
+div.Ans>input
+{
+    background-color: rgb(181, 219, 235);
+}

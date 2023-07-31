@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        table,tr,td
+        {
+            border: 2px solid slategray;
+
+        }
+        table
+        {
+            border: 2px solid violet;
+        }
+        #res
+        {
+            border: 2px solid red;
+        }
+        input.btn
+        {
+            background-color: lightcyan;  
+            border: 1px solid coral; 
+        }
+    </style>
+
+    <script src="/JS/Calulator.js"> </script> 
+</head>
+<body>
+    <table>
+        <tr>
+            <th>No-1</th> <td colspan="3"><input type="number" id="num1"></td> 
+        </tr>
+        <tr>
+            <th>No-2</th> <td colspan="3"><input type="number" id="num2"></td>
+        </tr>
+        <tr>
+            <th>Result</th> <td colspan="3"><input  type="number" id="res"></td>
+        </tr>
+        <tr>
+            <td> <input type="button" onclick="add_btn()" value="+" id="add"  class="btn"> </td>
+
+            <td> <input colspan="3" onclick="sub_btn()" type="button" value="-" id="sub" class="btn"> </td>
+            
+            <td> <input type="button" onclick="mul_btn()" value="*" id="mul" class="btn"> </td>
+
+            <td> <input type="button" onclick="div_btn()" value="/" id="div" class="btn"> </td>
+
+
+        </tr>
+    </table>
+</body>
+</html>

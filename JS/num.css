@@ -1,0 +1,15 @@
+bhtml {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .tab 
+  {
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  #btn2
+  {
+    margin-right: 2px;
+  }

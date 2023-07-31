@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .color_div
+        {
+            background-color: rgb(255,99,71);
+            height: 100px;
+            width: 300px;
+            margin: auto;
+            text-align:center;
+        }
+    </style>
+    <script src="/Color_slider.js">
+        
+    </script>
+</head> 
+<body>
+    
+    <div class="color_div" id="main_div">
+    
+        <h1> rgb(255,99,71)</h1>        
+    
+    </div>
+
+    
+    
+     <div class="range" style="margin-top: 50px; display:inline-block; margin-left: 50px;">
+        <label for="r1">Red(0,255)</label>
+        <input type="range" id="r1" name="one" min="0" max="255" step="1" value="255"  onchange="slider()">
+    </div>
+
+    <div class="range" style="display: inline-block; margin-left: 280px;">
+        <label for="r2">Green(0,255)</label>
+        <input type="range" id="r2" name="one" min="0" max="255" step="1" value="99" onchange="slider()">
+    </div>
+
+    <div class="range" style="display: inline-block; margin-left: 300px;">
+        <label for="r2">Blue(0,255)</label>
+        <input type="range" id="r3" name="one" min="0" max="255" step="1" value="71" onchange="slider()">
+    </div> 
+
+
+
+
+
+</body>
+</html>
