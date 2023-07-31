@@ -67,11 +67,6 @@ datafetch();
 
 
 
-
-
-
-
-
 async function Api()
 {
 try {
@@ -83,7 +78,9 @@ catch (error) {
     console.log("error : ",error)
 }
 }
- Api()
+ Api();    
+
+ 
 
 
 
