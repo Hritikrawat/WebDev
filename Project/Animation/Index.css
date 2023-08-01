@@ -1,0 +1,117 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    display: flex;
+    background:linear-gradient(to right,rgb(61, 168, 109),
+    rgb(0, 53, 128));
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    
+}
+.div1
+{
+    width: 30%;
+    color: blanchedalmond;
+    padding: 0px 20px;
+    color: rgb(254, 139, 177)
+
+    
+
+    
+}
+.container
+{
+    
+    /* background-color: palegreen; */
+    width:60%; 
+    height: 400px;
+    display: grid;
+    gap:5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+.child
+{
+    
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+    /* height: 100px; */
+    background-color: rgba(247, 132, 86, 0.846);
+}
+
+
+#child1
+{
+    grid-row-start:1;
+    grid-row-end: 3;
+    background-image: url('https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    transition-duration: 0.7s;
+    opacity: 0.4;
+    transition-timing-function: ease-in-out;
+}
+
+#child1:hover
+{
+    color: yellow;
+    background-position: right;
+    opacity: 1;
+    
+    
+}
+#child2
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: url('https://w0.peakpx.com/wallpaper/31/547/HD-wallpaper-spring-waterfall-stone-fog-mist-green-forest-8k-waterfall-forest-nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 1.2s;
+    opacity: 0.4;
+}
+#child2:hover
+{
+    color: blueviolet;
+    background-position: bottom;
+    opacity: 1;
+}
+#child4
+{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url('https://cdn.pixabay.com/photo/2020/02/20/08/42/heavy-rain-4864257_1280.jpg');
+
+    background-size: cover;
+    background-position: top;
+    opacity: 0.3;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#child4:hover
+{
+    color: rgb(25, 228, 235);
+    transform: scale(1.02);
+    opacity: 1;
+}
+#child5
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#child7
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
