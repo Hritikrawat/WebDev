@@ -1,0 +1,178 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:rgba(255, 253, 253, 0.863);
+    width:100%;
+    margin-right: 0px;
+    /* height: 130vh; */
+    /* height: auto; */
+    /* background-image: url(/Html/Images/colroful\ bg.jpg); */
+    /* background-size: cover; */
+}
+#mainphoto
+{
+    
+    background-image:linear-gradient(to left,rgba(139, 139, 139, 0.226),rgba(31, 30, 30, 0.263)),url('/Html/Images/ind_food.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%;
+    
+}
+h1
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Caveat', cursive; */
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 15%;
+
+    
+}
+h1#underline
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Caveat', cursive; */
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: -2%;
+}
+h2
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    margin-top: -1%;
+
+}
+
+.header
+{
+    /* background-color:rgba(232, 238, 175, 0.3); */
+    background-color: rgba(255, 255, 255, 0.648);
+    width: 100%;
+    height:40px;
+    border-radius: 00px;
+}
+
+.hcontent
+{
+    display: inline-block;   
+    margin: 10px 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight: bold;
+}
+.hcontent:hover
+{
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid gold;
+    /* color: cadetblue; */
+}
+.img
+{
+    
+    float: right;
+}
+.header img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+#menu
+{
+    display: inline-block;
+    width: 50px;
+    background-color: white;
+}
+
+#foods
+{
+    /* padding: 2px; */
+    
+    width: 100%;
+    height: 80vh;
+    /* background-color: rgb(91, 102, 136); */
+    background-image: url('/Html/Images/colroful\ bg.jpg');
+}
+
+.menu
+{
+    display: inline-block;
+    /* background-color: rgb(207, 165, 125); */
+    width: 20%;
+    height: 80%;
+    margin-left:4%;
+    margin-top: 3%;
+    
+    
+}
+/* .menu :hover
+{
+    width: 800px;
+    height: 200%;
+    background-color: wheat;
+    transition: width 2s,height 2s;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div > img
+{
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    /* background-color: yellow; */
+}
+h2#dish
+{
+    margin: 0px;
+    text-align: center;
+    float: left;
+    font-size: 40px;
+}
+
+#Special
+{
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid red; */
+    background-color: rgba(255, 253, 253, 0.863);
+    /* background-color: violet; */
+}
+div#about
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    width: 100%;
+    /* height: auto; */
+    background-color: rgba(255, 253, 253, 0.863);
+    /* border: 1px solid red; */
+}
+

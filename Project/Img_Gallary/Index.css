@@ -1,0 +1,9 @@
+div#inputDiv
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(62, 62, 187);
+    background-color: cornflowerblue;
+
+}

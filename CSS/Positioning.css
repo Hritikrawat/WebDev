@@ -1,0 +1,60 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#head
+{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 12vh;
+}
+.head
+{
+    display: inline-block;
+    background-color: red;
+    height: 20px;
+    width: 40px;
+    margin-left: 12%;
+    position: relative;
+    /* left: 40px; */
+}
+
+
+
+
+
+#container
+{
+    margin-top: 20px;
+    background-color: plum;
+    height: 300px;
+    width: 300px;
+}
+.divs
+{ 
+    background-color: blanchedalmond;
+    margin-top: 5px;
+}
+
+/*distacne from to is same in both the divs but due to postion the output will not u think.*/
+#div2
+{
+    position: relative;
+    top:180px;
+}
+
+#div_2
+{
+    /* absolute make the div to move freely thtoughtout the page */
+    position: absolute;  
+    top: 180px;    
+}
+#fixed
+{
+    background-color: peru;
+    position: fixed;
+    top: 0px;
+    left:300px;
+}
+

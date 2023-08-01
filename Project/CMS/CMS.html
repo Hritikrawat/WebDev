@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Project/CMS/CMS.css">
+    
+</head>
+<body>
+    <table class="customers">
+        <th colspan="4">Customer Management System</th>
+        
+        <tr>
+                <td><label for="Name">Name: </label></td>
+                <td colspan="3"><input type="Text" id="Name_input"></td>
+        </tr>
+        <tr>
+                <td><label for="Id">Id: </label></td>
+                <td colspan="3"><input type="Text" id="Id_input"></td>            
+        </tr>
+        <tr>
+            
+                <td><label for="P_no">P.no: </label></td>
+                <!-- use the regex to enhance the functionality -->
+                <td colspan="3"><input type="tel" id="P_no_input" maxlength="10"></td>
+
+        </tr>
+        <tr>
+                <td><label for="address">Address: </label></td>
+                <td colspan="3"><input type="text" id="address_input"></td>
+        </tr>
+        <tr>
+            <td><label for="Image">Photo :</label></td>
+            <td colspan="3"><input type="file" id="Image"></td>
+        </tr>
+    
+
+        <tr>
+            <td><input type="button" id="add_btn" value="Add" onclick="add_btn()"></td>
+            <td><input type="button" id="dlt_btn" value="Delete" onclick="dlt_btn()"></td>
+            <td><input type="button" id="Mod_btn" value="Modify"onclick="Mod_btn()"></td>
+            <td><input type="button" id="Search_btn" value="Search"onclick="Search_btn()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="First" onclick="First_btn()"></td>
+            <td><input type="button" value="Last" onclick="Last_btn()"></td>
+            <td><input type="button" value="Next" onclick="Next_btn()"></td>
+            <td><input type="button" value="Previous" onclick="Previous_btn()"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                    <input type="button" onclick="saveData()" value="Save Data" >
+            </td>
+            <td colspan="2">
+                <input type="button"  onclick="loadData()" value="Load Data">
+            </td>
+        </tr>
+
+    </table>
+
+    <table class="customers" id="output_table" style="margin-top: 5px;">
+    <tr>
+        <th>Remove</th>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>P.no</th>
+        <th>ADDRESS</th>
+        <th>image</th>
+    </tr>
+    
+</table>    
+
+    
+</body>
+<script src="/Project/CMS/CMS.js"></script>
+</html>
