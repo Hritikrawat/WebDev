@@ -49,6 +49,7 @@ let prom=new Promise(function(resolve,reject)
     if(!error) resolve({name:"Ritik",Age:22})
     else reject ("Something went wrong");
 })
+
 // Chaining of then  ***IMPORTANT****.
 prom
 .then(
